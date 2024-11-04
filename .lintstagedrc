@@ -1,0 +1,9 @@
+{
+	"src/**/*.{js,jsx,ts,tsx,vue}": [
+		"npx prettier -w --ignore-unknown",
+		"npx eslint --fix"
+	],
+	"src/**/*.{css,scss}": [
+		"npx prettier -w --ignore-unknown"
+	]
+}

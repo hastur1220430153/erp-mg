@@ -1,0 +1,12 @@
+@import './transition.css';
+@import './reset.css';
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+.tox-tinymce-aux {
+  z-index: 9999 !important;
+}

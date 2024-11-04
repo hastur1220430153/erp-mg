@@ -1,0 +1,42 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"module": "ESNext",
+		"target": "ESNext",
+		"lib": [
+			"DOM",
+			"ESNext"
+		],
+		"strict": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"jsx": "preserve",
+		"moduleResolution": "node",
+		"isolatedModules": true,
+		"resolveJsonModule": true,
+		"noUnusedLocals": false,
+		"strictNullChecks": true,
+		"forceConsistentCasingInFileNames": true,
+		// ---
+		"useUnknownInCatchVariables": false,
+		"allowJs": false,
+		"paths": {
+			"~/*": [
+				"./*"
+			],
+			"@/*": [
+				"./src/*"
+			]
+		},
+		"types": [
+			"vite/client",
+			"node",
+			"unplugin-icons/types/vue",
+			"naive-ui/volar"
+		]
+	},
+	"exclude": [
+		"node_modules",
+		"dist"
+	]
+}

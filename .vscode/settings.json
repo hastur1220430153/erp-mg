@@ -1,0 +1,8 @@
+{
+  "i18n-ally.localesPaths": [
+    "src/locales",
+    "public/tinymce/langs",
+    "src/locales/lang",
+    "public/tinymce/plugins/help/js/i18n"
+  ]
+}
